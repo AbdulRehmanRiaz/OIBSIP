@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Calculator Project</title>
+ 
+ <link rel="stylesheet" type="text/css" href="styles.css">
+ <script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+
+<table border="0">
+
+	<tr>
+		<td colspan="5"><input type="text" id="result"></td>
+	</tr>
+
+
+	<tr>
+		<td><input type="button" value="(" onclick="display('(')"></td>
+		<td><input type="button" value=")" onclick="display(')')"></td>
+		<td><input type="button" value="ans" onclick="answer('ans')"></td>
+		<td><input type="button" value="del" onclick="deleteButton('del')" id="delete"></td>
+		<td><input type="button" value="clear" onclick="clr()"></td>
+	</tr>
+
+	<tr>
+		<td><input type="button" value="7" onclick="display('7')"></td>
+		<td><input type="button" value="8" onclick="display('8')"></td>
+		<td><input type="button" value="9" onclick="display('9')"></td>
+		<td><input type="button" value="%" onclick="display('%')"></td>
+		<td><input type="button" value="^" onclick="display('^')"></td>
+	</tr>
+
+	<tr>
+		<td><input type="button" value="4" onclick="display('4')"></td>
+		<td><input type="button" value="5" onclick="display('5')"></td>
+		<td><input type="button" value="6" onclick="display('6')"></td>
+		<td><input type="button" value="*" onclick="display('*')"></td>
+		<td><input type="button" value="/" onclick="display('/')"></td>
+	</tr>
+	
+	<tr>
+		<td><input type="button" value="1" onclick="display('1')"></td>
+		<td><input type="button" value="2" onclick="display('2')"></td>
+		<td><input type="button" value="3" onclick="display('3')"></td>
+		<td><input type="button" value="+" onclick="display('+')"></td>
+		<td><input type="button" value="-" onclick="display('-')"></td>
+	</tr>
+
+	<tr>
+		<td><input type="button" value="." onclick="display('.')"></td>
+		<td><input type="button" value="0" onclick="display('0')"></td>
+		<td><input type="button" value="+-" onclick="display('+-')"></td>
+		<td colspan="2"><input type="button" value="Enter" onclick="equate('Enter')" class="enter"></td>		
+	</tr>
+</table>
+
+</div>
+
+</body>
+</html>
