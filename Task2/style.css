@@ -1,0 +1,40 @@
+body{
+			background-color:#025464;
+		}
+	
+		h1,h3{
+			color: white;
+		}
+   
+    .about{
+    	display: flex;
+    	flex-direction: row;
+    	text-align: center;
+    	margin-left: 150px;
+    	margin-right: 150px;
+    	margin-top: 30px;
+        margin-bottom: 40px;
+    	background-color: white;
+    }
+    .quote{
+    	width: 500px;
+    	margin-left: 100px;
+    	padding-top: 100px;
+    	padding-right: 50px;
+    	font-size: 30px;
+    }
+    
+    .bio{
+    	color: white;
+     margin-left: 150px;
+     margin-right: 150px;
+     
+    }
+
+    .bio p{
+    font-size: 18px;
+    padding:20px 20px 20px 20px;
+    background-color: #025464;
+    border-bottom: solid white 2px;
+    padding-bottom: 50px;
+    }
