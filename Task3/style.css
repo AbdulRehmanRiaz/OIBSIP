@@ -1,0 +1,93 @@
+
+body{
+  background-color: white;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-top: 05px;
+  text-align: center;
+  background-color: #088395;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  width: 15%;
+  padding: 10px 20px;
+  background-color: #05BFDB;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+button[type="submit"]:hover{
+  cursor: pointer;
+  color: #00FFCA;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pending-tasks{
+  margin-right: 60px;
+}
+.completed-tasks {
+  margin-right: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  
+  margin-left: 10px;
+}
+li button:hover{
+  cursor: pointer;
+  color: #00FFCA;
+}

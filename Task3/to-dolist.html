@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>To-Do WebApp</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h1>To-Do List</h1>
+
+      <form>
+        <input type="text" id="input-task" placeholder="Add new task">
+        <button type="submit" id="add-task">Add</button>
+      </form>
+
+      <div class="lists">
+
+        <div class="pending-tasks">
+          <h2>Pending Tasks</h2>
+          <ul id="pending-tasks-list"></ul>
+        </div>
+
+        <div class="completed-tasks">
+          <h2>Completed Tasks</h2>
+          <ul id="completed-tasks-list"></ul>
+        </div>
+
+      </div>
+      
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
